@@ -17,6 +17,14 @@ public class Circle {
 		
 	}
 	
+	public double calculateArea() {
+		return Math.PI * radius * radius;
+	}
+	
+	public double calculateCircunferenca() {
+		return 2 * Math.PI * radius;
+	}
+	
 	
 
 }
